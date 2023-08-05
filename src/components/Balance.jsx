@@ -10,7 +10,7 @@ const Balance = ({ transactions }) => {
     <div>
       <h4 className="text-lg">Current Balance</h4>
       <h1 id="balance" className="text-3xl font-bold">
-        ${balance}
+        {balance}
       </h1>
     </div>
   );

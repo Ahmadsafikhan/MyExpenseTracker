@@ -19,7 +19,7 @@ const AccountSummary = ({ transactions }) => {
     <div className="flex justify-between relative">
       <div className="w-[50%] shadow-div-shadow">
         <h4 className="text-lg">Income</h4>
-        <p className="text-green-500 font-bold">${income}</p>
+        <p className="text-green-500 font-bold">{income}</p>
       </div>
       <div className="w-[50%] text-right shadow-div-shadow">
         <h4 className="text-lg">Expense</h4>

@@ -44,7 +44,7 @@ const AddTransaction = ({ addTransaction }) => {
             id="transactionamount"
             value={transactionAmount}
             onChange={(e) => setTransactionAmount(e.target.value)}
-            placeholder="Dollar Value of Transaction"
+            placeholder="Value of Transaction"
             required
           />
         </div>
