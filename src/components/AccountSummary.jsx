@@ -23,7 +23,7 @@ const AccountSummary = ({ transactions }) => {
       </div>
       <div className="w-[50%] text-right shadow-div-shadow">
         <h4 className="text-lg">Expense</h4>
-        <p className="text-red-500 font-bold">${expense}</p>
+        <p className="text-red-500 font-bold">{expense}</p>
       </div>
       <div className="absolute h-[50px] w-[1px] bg-gray-300 right-[50%] top-0"></div>
     </div>
